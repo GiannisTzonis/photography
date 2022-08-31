@@ -454,7 +454,7 @@ ol {
 
 .header-section {
   height: 50vh;
-  background-color: #fffff;
+  background-color: #fff;
   padding-top: 15px;
   padding-bottom: 5px;
   position: relative;
@@ -840,12 +840,12 @@ ol {
 ---------------------*/
 
 .portfolio-section {
-  padding-top: 120px;
+  padding-top: 12px;
 }
 
 .portfolio-filter {
   list-style: none;
-  margin-bottom: 46px;
+  margin-bottom: 12px;
   padding: 0 15px;
 }
 
@@ -854,7 +854,7 @@ ol {
   font-size: 14px;
   color: #212121;
   font-weight: 500;
-  margin-right: 46px;
+  margin-right: 12px;
   text-transform: uppercase;
   cursor: pointer;
 }
