@@ -891,14 +891,14 @@ ol {
   Portfolio page 2
 ---------------------*/
 
-.portfolio-2-section {
+/* .portfolio-2-section {
   padding-top: 120px;
   padding-bottom: 100px;
 }
 
 .portfolio-2-section .site-btn {
   margin-top: 80px;
-}
+} */
 
 .pf-2 {
   padding-left: 83px;
@@ -926,8 +926,9 @@ ol {
 ---------------------*/
 
 .portfolio-3-section {
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* padding-bottom: 100px; */
   overflow: hidden;
 }
 
