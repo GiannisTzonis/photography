@@ -17,7 +17,7 @@
 
 html,
 body {
-	background: #e8c2a0;
+	background: #ffffff;
 	height: 100%;
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -467,7 +467,8 @@ ol {
 ---------------------*/
 
 .header-section {
-	background-color: #336a89;
+	height: 50vh;
+	background-color: #fffff;
 	padding-top: 15px;
 	padding-bottom: 5px;
 	position: relative;
@@ -499,6 +500,7 @@ ol {
 .header-controls button.nav-switch-btn {
 	font-size: 21px;
 	margin-right: 25px;
+	margin-bottom: 25px;
 }
 
 .slicknav_menu {
@@ -655,11 +657,13 @@ ol {
 }
 
 .intro-text h2 {
+	color: #201a16;
 	font-size: 48px;
 	margin-bottom: 25px;
 }
 
 .intro-text p {
+	color: #230C0F;
 	margin-bottom: 45px;
 }
 
@@ -677,11 +681,17 @@ ol {
 }
 
 .skill-warp {
+	margin: 5px;
+	border-radius: 50px;
+	background-color: #d4d4d4;
 	padding-left: 83px;
 	padding-top: 80px;
+	padding-bottom: 10px;
 }
 
 .single-progress-item {
+	width: 90%;
+	margin: auto;
 	margin-bottom: 30px;
 	position: relative;
 }
@@ -695,8 +705,9 @@ ol {
 }
 
 .progress-bar-style {
+	
 	display: block;
-	height: 6px;
+	height: 5px;
 	position: relative;
 	width: 100%;
 }
@@ -706,7 +717,7 @@ ol {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #212121;
+	background: #801c44;
 }
 
 .progress-bar-style .bar-inner span {
@@ -727,7 +738,7 @@ ol {
 ---------------------*/
 
 .footer-section {
-	background: #212121;
+	background: #201a16;
 	padding: 19px 40px;
 }
 
@@ -1079,6 +1090,9 @@ ol {
 ---------------------*/
 
 .map {
+	border: 2px solid rgb(105, 72, 28);
+	margin: auto;
+	width: 80%;
 	height: 663px;
 	position: relative;
 }
@@ -1269,9 +1283,12 @@ ol {
 	}
 	.slicknav_btn {
 		margin: 0 auto 20px;
-		background: #081624;
+		background: rgba(0, 0, 0, 0);
 		float: none;
 		display: inline-block;
+	}
+	.nav-switch-btn {
+		background-color: black;
 	}
 	.slicknav_nav {
 		background: #081624;
@@ -1338,6 +1355,9 @@ ol {
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+	.header-section {
+		height: 260px;
+	}
 	.about-bg {
 		height: 400px;
 	}
@@ -1375,5 +1395,12 @@ ol {
 	}
 	.map {
 		height: 400px;
+	}
+	/* further */
+	.intro-text > h2 {
+		font-size: 1.95rem;
+	}
+	.header-section > a > img {
+		padding-right: 35px;
 	}
 }
