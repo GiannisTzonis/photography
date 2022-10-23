@@ -1265,10 +1265,10 @@ ol {
     padding-bottom: 0;
   }
   .site-logo {
-    padding-left: 25px;
+    padding-right: 72px;
     margin-bottom: 20px;
     margin-right: 20px;
-    width: 120%;
+    width: 130%;
   }
   .header-controls {
     display: none;
@@ -1352,6 +1352,11 @@ ol {
   }
   .search-model-form input {
     width: 100%;
+  }
+  .intro-text {
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 5px;
   }
 }
 
