@@ -510,7 +510,14 @@ ol {
   float: right;
   display: none;
 }
-
+.aboutMe {
+  font-family: "Source Code Pro", monospace;
+}
+.contactClass {
+  font-family: "Stick No Bills", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
 .main-menu li {
   display: inline-block;
   position: relative;
@@ -1285,7 +1292,7 @@ ol {
     background: #201a16;
     float: none;
     display: inline-block;
-    top: 13px;
+    top: 28px;
     left: 140px;
   }
 
