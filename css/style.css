@@ -1265,8 +1265,10 @@ ol {
     padding-bottom: 0;
   }
   .site-logo {
-    padding-left: 15px;
+    padding-left: 25px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    width: 120%;
   }
   .header-controls {
     display: none;
@@ -1283,10 +1285,16 @@ ol {
     background: #201a16;
     float: none;
     display: inline-block;
+    top: 13px;
+    left: 140px;
   }
 
   .slicknav_nav {
-    background: rgba(32, 26, 22, 0.3);
+    margin: auto;
+    width: 95%;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    background: rgba(32, 26, 22, 0.8);
     text-align: left;
     padding: 8px 5px;
     margin-bottom: 15px;
@@ -1351,7 +1359,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
   .header-section {
-    height: 260px;
+    height: 230px;
   }
   .about-bg {
     height: 400px;
@@ -1396,6 +1404,6 @@ ol {
     font-size: 1.95rem;
   }
   .header-section > a > img {
-    padding-right: 35px;
+    padding-right: 75px;
   }
 }
