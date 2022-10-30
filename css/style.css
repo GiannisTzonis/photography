@@ -759,7 +759,9 @@ ol {
 /*------------------
   About page
 ---------------------*/
-
+.container-fluid {
+  padding-bottom: 1;
+}
 .about-bg {
   height: 100%;
 }
@@ -1361,6 +1363,10 @@ ol {
   }
   .about-bg {
     height: 400px;
+  }
+  .about-text p {
+    text-align: justify;
+    text-justify: inter-word;
   }
   .services-section .services-item {
     padding-right: 0px;
