@@ -1369,7 +1369,10 @@ ol {
     text-justify: inter-word;
   }
   .services-section .services-item {
-    padding-right: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    text-justify: inter-word;
   }
   .portfolio-box {
     padding: 0;
