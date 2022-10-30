@@ -143,6 +143,9 @@ ol {
   cursor: pointer;
   text-align: center;
   background: #212121;
+  margin-left: 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .site-btn:hover {
@@ -1280,7 +1283,7 @@ ol {
     background: #201a16;
     float: none;
     display: inline-block;
-    top: -170px;
+    top: -165px;
     left: 140px;
   }
 
