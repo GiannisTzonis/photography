@@ -1280,7 +1280,7 @@ ol {
     background: #201a16;
     float: none;
     display: inline-block;
-    top: 28px;
+    top: -170px;
     left: 140px;
   }
 
@@ -1359,7 +1359,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
   .header-section {
-    height: 230px;
+    height: 180px;
   }
   .about-bg {
     height: 400px;
